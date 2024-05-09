@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justice</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar container mx-auto text-sm py-10">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a>Home</a></li>
+                <li>
+                  <a>Services</a>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a>Cases</a>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a>Blog</a>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a>Contact Us</a>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <img class="w-28" src="images/logo2.png" alt="" />
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li>
+                <details>
+                  <summary>Services</summary>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Cases</summary>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Blog</summary>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Contact Us</summary>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="main-button">Free Consultation</a>
+          </div>
+        </div>
+      </nav>
+      <div class="container mx-auto">
+        <div
+          class="hero bg-no-repeat space-y-4"
+          style="background-image: url(images/banner.png)"
+        >
+          <div class="hero-overlay bg-opacity-40"></div>
+          <div class="hero-content text-center text-white py-24">
+            <div class="max-w-lg">
+              <h1 class="mb-5 text-5xl font-bold font-main leading-tight">
+                We Provide Effective Legal Solutions
+              </h1>
+              <p class="text-xs leading-relaxed mb-5 text-[#D7D6D4] font-light">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <div class="banner-end text-sm space-y-2">
+                <input
+                  class="bg-white"
+                  type="text"
+                  placeholder="search your services"
+                />
+                <button class="main-button ml-2">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header finish  -->
+    <!-- practice sections start  -->
+    <section class="practice my-24 text-center text-[#414040]">
+      <div class="container mx-auto space-y-4">
+        <h2 class="font-main text-3xl md:text-4xl font-bold">
+          The Legal Practice Area
+        </h2>
+        <p class="text-xs leading-relaxed w-3/4 mx-auto font-light">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour.
+        </p>
+        <div class="practice-cards grid grid-cols-1 sm:grid-cols-3">
+          <div class="card rounded-none w-auto">
+            <figure class="px-10 pt-10">
+              <img src="images/business.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center space-y-3">
+              <h2 class="card-title text-xl">Business Law</h2>
+              <p class="text-sm leading-relaxed font-light">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <div class="card-actions">
+                <a href=""
+                  ><i
+                    class="fa-solid fa-arrow-right text-white rounded-full card-button"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="card rounded-none w-auto">
+            <figure class="px-10 pt-10">
+              <img src="images/criminal.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center space-y-3">
+              <h2 class="card-title text-xl">Criminal Law</h2>
+              <p class="text-sm leading-relaxed font-light">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <div class="card-actions">
+                <a href=""
+                  ><i
+                    class="fa-solid fa-arrow-right text-white rounded-full card-button"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="card rounded-none w-auto">
+            <figure class="px-10 pt-10">
+              <img src="images/child.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center space-y-3">
+              <h2 class="card-title text-xl">Child Support</h2>
+              <p class="text-sm leading-relaxed font-light">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <div class="card-actions">
+                <a href=""
+                  ><i
+                    class="fa-solid fa-arrow-right text-white rounded-full card-button"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="card rounded-none w-auto">
+            <figure class="px-10 pt-10">
+              <img src="images/education.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center space-y-3">
+              <h2 class="card-title text-xl">Education Law</h2>
+              <p class="text-sm leading-relaxed font-light">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <div class="card-actions">
+                <a href=""
+                  ><i
+                    class="fa-solid fa-arrow-right text-white rounded-full card-button"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="card rounded-none w-auto">
+            <figure class="px-10 pt-10">
+              <img src="images/divorce.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center space-y-3">
+              <h2 class="card-title text-xl">Divorce Law</h2>
+              <p class="text-sm leading-relaxed font-light">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <div class="card-actions">
+                <a href=""
+                  ><i
+                    class="fa-solid fa-arrow-right text-white rounded-full card-button"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="card rounded-none w-auto">
+            <figure class="px-10 pt-10">
+              <img src="images/tax.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center space-y-3">
+              <h2 class="card-title text-xl">Tax Law</h2>
+              <p class="text-sm leading-relaxed font-light">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <div class="card-actions">
+                <a href=""
+                  ><i
+                    class="fa-solid fa-arrow-right text-white rounded-full card-button"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- practice sections finish  -->
+    <section class="client">
+      <div class="container mx-auto"></div>
+    </section>
+  </body>
+</html>

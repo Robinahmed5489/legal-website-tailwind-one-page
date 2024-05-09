@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.font-main {
+  font-family: "EB Garamond", serif;
+}
+.main-button {
+  background-color: #b68c5a;
+  color: aliceblue;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+.main-button:hover {
+  background-color: white;
+  color: #b68c5a;
+  border: 1px solid #b68c5a;
+}
+.navbar .dropdown ul {
+  font-size: 0.5rem;
+}
+.banner-end input {
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+.card-button {
+  background-color: #b68c5a;
+  color: aliceblue;
+  padding: 8px;
+}
+.card-button:hover {
+  background-color: white;
+  color: #b68c5a;
+  border: 1px solid #b68c5a;
+}
+.practice-cards .card {
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+.practice-cards .card:nth-child(3n + 2) {
+  border-left: 1px solid rgb(194, 194, 194);
+  border-right: 1px solid rgb(194, 194, 194);
+}
+
+@media screen and (max-width: 640px) {
+  .practice-cards .card:nth-child(3n + 2) {
+    border-left: 0;
+    border-right: 0;
+  }
+}
