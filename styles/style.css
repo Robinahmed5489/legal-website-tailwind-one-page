@@ -45,6 +45,12 @@ body {
   border-right: 1px solid rgb(194, 194, 194);
   background-blend-mode: ;
 }
+.contact-us .contact-description .contact-info .card {
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+.contact-us .contact-description .contact-info .card:nth-child(2n + 1) {
+  border-right: 1px solid rgb(194, 194, 194);
+}
 
 @media screen and (max-width: 640px) {
   .practice-cards .card:nth-child(3n + 2) {
